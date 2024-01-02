@@ -2951,19 +2951,28 @@ var _react = require("react");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "App",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDnd.DndProvider), {
-            backend: (0, _reactDndHtml5Backend.HTML5Backend),
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _container.Container), {}, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Drag from left box and drop in Right"
+            }, void 0, false, {
+                fileName: "src/index.js",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDnd.DndProvider), {
+                backend: (0, _reactDndHtml5Backend.HTML5Backend),
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _container.Container), {}, void 0, false, {
+                    fileName: "src/index.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "src/index.js",
                 lineNumber: 12,
-                columnNumber: 9
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "src/index.js",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/index.js",
         lineNumber: 10,
         columnNumber: 5
@@ -2973,7 +2982,7 @@ _c = App;
 const rootElement = document.getElementById("root");
 (0, _reactDom.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.js",
-    lineNumber: 19,
+    lineNumber: 20,
     columnNumber: 8
 }, undefined), rootElement);
 var _c;
@@ -32404,7 +32413,7 @@ $RefreshReg$(_c, "Container");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dnd":"cak3X","./Box.js":"jmMsX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./TextBox.js":"ha1XD","./ImgBox.js":"9TGc4"}],"jmMsX":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dnd":"cak3X","./Box.js":"jmMsX","./TextBox.js":"ha1XD","./ImgBox.js":"9TGc4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jmMsX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$37d2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32503,7 +32512,7 @@ $RefreshReg$(_c, "Box");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dnd":"cak3X","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dnd":"cak3X","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {

@@ -27,14 +27,14 @@ img {
 .style1 {
   border: 1px solid #000;
   width: 300px;
-  height: 90vh;
+  height: 80vh;
   position: relative;
 }
 
 .style2 {
   border: 1px solid #000;
   width: 70vw;
-  height: 90vh;
+  height: 80vh;
   position: relative;
 }
 
