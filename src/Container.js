@@ -1,4 +1,3 @@
-import update from "immutability-helper";
 import { useCallback, useState, useEffect } from "react";
 import { useDrop } from "react-dnd";
 import { Box } from "./Box.js";
