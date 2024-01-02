@@ -42,7 +42,7 @@ const ImgBox = ({ id, left, top, type, flag }) => {
     >
       <div>
         <input type="file" onChange={onImageChange} className="fileinput" />
-        <img className="imageclass" alt="preview image" src={image} />
+        <img className="imageclass" alt="Click to add Image" src={image} />
       </div>
     </div>
   );
