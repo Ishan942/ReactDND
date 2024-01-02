@@ -8,6 +8,7 @@ import { useCallback, useState } from "react";
 function App() {
   return (
     <div className="App">
+      <h1>Drag from left box and drop in Right</h1>
       <DndProvider backend={HTML5Backend}>
         <Container />
       </DndProvider>

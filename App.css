@@ -24,13 +24,13 @@ img {
 
 .style1 {
   width: 300px;
-  height: 90vh;
+  height: 80vh;
   border: 1px solid black;
   position: relative;
 }
 .style2 {
   width: 70vw;
-  height: 90vh;
+  height: 80vh;
   border: 1px solid black;
   position: relative;
 }
