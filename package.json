@@ -2,12 +2,13 @@
   "name": "react_dnd",
   "version": "1.0.0",
   "description": "react drag and drop assignment",
-  "main": "index.js",
+  "homepage": "https://Ishan942.github.io/ReactDND/",
   "scripts": {
     "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --public-url /ReactDND/"
   },
   "author": "ishan_sirdeshpande",
   "license": "ISC",
